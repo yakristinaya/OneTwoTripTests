@@ -1,0 +1,10 @@
+actor: AcceptanceTester
+modules:
+    enabled:
+        - WebDriver:
+            url: http://onetwotrip.com
+            host:
+            browser: chrome
+        - \Helper\Acceptance
+        - Asserts
+

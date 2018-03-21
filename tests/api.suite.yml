@@ -1,0 +1,6 @@
+actor: ApiTester
+modules:
+    enabled:
+        - REST:
+            url: https://www.onetwotrip.com
+            depends: PhpBrowser
