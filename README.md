@@ -7,6 +7,6 @@
 
 # Запуск
 
-1. Запустить Selen+ChromeDriver
-2. Запустить все тесты -  codecept run 
-
+1. Запустить Selenium Webdriver + ChromeDriver
+2. Команда для запуска всех тестов -  codecept run 
+3. Подробный вывод - codecept run acceptance --steps, codecept run api --steps или --debug
